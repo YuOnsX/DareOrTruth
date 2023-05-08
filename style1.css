@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('LEMONMILK-Medium.otf') format('truetype');
+  }
+  html{     background-color: #D7F2BA;
+  }
+  .container {
+    
+    font-family: 'CustomFont', sans-serif;
+    margin: 60%  auto;
+
+    text-align: center;
+  }
+  
+  .buttons {
+    font-family: 'CustomFont', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  
+  button {
+    font-family: 'CustomFont', sans-serif;
+
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 1rem;
+  }
+  #dare-btn{
+    background-color: #FA824C;
+
+  }
+  #truth-btn{
+    background-color: #3C91E6;
+
+  }
